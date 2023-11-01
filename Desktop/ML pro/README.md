@@ -20,9 +20,9 @@ High True Negative Rate: Signifies that the model correctly excludes those who m
 # Feature Importance via SHAP Values:
 The SHAP (SHapley Additive exPlanations) values plot was employed to determine the features of highest importance in predicting a customer's interest in the new insurance package. The results were:
 
-Annual Income: This emerged as the most crucial determinant. Customers with a higher annual income were found to be more likely to be interested in the travel insurance.
-Family Members: The number of family members played a significant role, coming in second in terms of importance.
-Age: Age was the third most important feature influencing a customer's likelihood to opt for the travel insurance package.
+## Annual Income: This emerged as the most crucial determinant. Customers with a higher annual income were found to be more likely to be interested in the travel insurance.
+## Family Members: The number of family members played a significant role, coming in second in terms of importance.
+## Age: Age was the third most important feature influencing a customer's likelihood to opt for the travel insurance package.
 
 # Conclusions:
 The Random Forest Classification Model, after appropriate tuning, proved to be the best fit for predicting customer interest in World Travel Insurances, Ltd's new travel insurance package. The insights drawn from the confusion matrix and SHAP values indicate that customers with a higher annual income, more family members, and those within a specific age range are more likely to invest in the travel insurance offering. This data-driven approach can significantly guide the company's marketing strategy, ensuring optimized outreach and reduced unnecessary expenditures.
